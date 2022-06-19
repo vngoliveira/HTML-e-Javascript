@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+<script>
+
+	anoInicio = 1500;
+	anoAtual = 2022;
+	anosPassados = anoAtual - anoInicio;
+	idadeMediaDeTerFilhos = 28;
+	geracoes = Math.round(anosPassados/idadeMediaDeTerFilhos);
+
+	function pulaLinha()
+	{
+		document.write("<br>");
+	}
+
+	function mostra()
+	{
+		document.write( geracoes + " se passaram desde " + anoInicio);
+		pulaLinha();
+	}
+
+mostra();
+
+</script>
